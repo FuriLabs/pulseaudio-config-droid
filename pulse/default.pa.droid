@@ -44,7 +44,7 @@ load-module module-augment-properties
 load-module module-switch-on-port-available
 
 ### Switch when connected by default
-#load-module module-switch-on-connect skip_abstract=yes
+load-module module-switch-on-connect skip_abstract=yes
 
 ### Automatically load the Pulseaudio Droid and check for custom config file
 .ifexists module-droid-card.so
