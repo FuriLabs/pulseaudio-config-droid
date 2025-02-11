@@ -157,3 +157,4 @@ load-module module-filter-apply
 ### Make some devices default
 #set-default-sink sink.primary
 #set-default-source source.primary
+load-module module-switch-on-connect
