@@ -2,7 +2,6 @@
 set -e
 
 remove() {
-
 	# Restore Calls daemon config
 	if [ -e "/etc/pulse/default.pa" ]; then
 		rm -f "/etc/pulse/default.pa"
