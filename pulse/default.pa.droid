@@ -93,6 +93,7 @@ load-module module-bluetooth-discover
 load-module module-esound-protocol-unix
 .endif
 load-module module-native-protocol-unix
+load-module module-native-protocol-unix socket=/run/user/32011/pulse/batman auth-group=root
 
 ### Network access (may be configured with paprefs, so leave this commented
 ### here if you plan to use paprefs)
